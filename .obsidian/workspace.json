@@ -4,20 +4,49 @@
     "type": "split",
     "children": [
       {
-        "id": "5bebc7800e7cf237",
+        "id": "431e15f75985dab3",
         "type": "tabs",
         "children": [
           {
-            "id": "1de366aa9c8b1be1",
+            "id": "e41e7a3a760d6e1a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "WORLD_CLASS_SKILLS_2026.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "WORLD_CLASS_SKILLS_2026"
+            }
+          },
+          {
+            "id": "2f2e12e9f29f0fca",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.5"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.5"
+            }
+          },
+          {
+            "id": "38e5718dbbc77141",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.7"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -179,8 +208,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "1de366aa9c8b1be1",
+  "active": "38e5718dbbc77141",
   "lastOpenFiles": [
+    "output_tech_spec.md",
+    "WORLD_CLASS_SKILLS_2026.md",
+    "prompts/python_debug_expert.md",
+    "prompts/req_to_spec.md",
+    "prompts",
+    "README.md",
     "Untitled.canvas",
     "Python_Programming_Concepts.md",
     "copilot-instructions.md"
