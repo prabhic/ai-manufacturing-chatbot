@@ -1,5 +1,5 @@
 """
-FastAPI Backend — Mentor AI Chatbot API
+FastAPI Backend — Manufacturing AI Chatbot API
 
 Endpoints:
   POST /api/chat    — Send a message, get AI response
@@ -54,7 +54,7 @@ async def lifespan(app: FastAPI):
 # ---------------------------------------------------------------------------
 
 app = FastAPI(
-    title="Mentor AI Chatbot",
+    title="Manufacturing AI Chatbot",
     description="Gemini-powered chatbot with tool calling",
     version="1.0.0",
     lifespan=lifespan,
@@ -77,8 +77,14 @@ app.add_middleware(
 @app.get("/api/health")
 async def health_check():
     """Simple health check."""
-    return {"status": "ok", "model": settings.GEMINI_MODEL}
+    return {"status": "ok", "model": "This Server uses Gemini API "}
 
+@app.get("/api/server-info")
+async def server_info():
+    """Get server information."""
+    return {
+        "Server Name": "Manufacturing AI Chatbot Backend",
+    }
 
 @app.post("/api/chat", response_model=ChatResponse)
 async def chat(request: ChatRequest):
@@ -87,10 +93,12 @@ async def chat(request: ChatRequest):
         raise HTTPException(status_code=400, detail="Message cannot be empty")
 
     try:
+        print(f"✅ got user message sending to gemini AI")
         result = gemini_service.chat(
             message=request.message,
             session_id=request.session_id,
         )
+        print(f"✅ Gemini AI returned a response for session: {result.get('session_id', 'N/A')}")
         return ChatResponse(**result)
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))

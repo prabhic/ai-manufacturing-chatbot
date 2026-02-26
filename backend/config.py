@@ -15,7 +15,7 @@ class Settings:
     """Application settings loaded from environment."""
 
     GEMINI_API_KEY: str = os.environ.get("GEMINI_API_KEY", "")
-    GEMINI_MODEL: str = os.environ.get("GEMINI_MODEL", "gemini-2.0-flash")
+    GEMINI_MODEL: str = os.environ.get("GEMINI_MODEL", "gemini-3-flash-preview")
     CORS_ORIGINS: list[str] = ["*"]  # Allow all for local dev
 
     def validate(self) -> None:
