@@ -17,12 +17,12 @@ BACKEND_URL = "http://localhost:8000"
 # Page config
 # ---------------------------------------------------------------------------
 st.set_page_config(
-    page_title="Mentor AI Chatbot",
+    page_title="Manufacturing AI Chatbot",
     page_icon="🤖",
     layout="centered",
 )
 
-st.title("🤖 Mentor AI Chatbot")
+st.title("🤖 Manufacturing AI Chatbot")
 st.caption("Powered by Gemini with Tool Calling")
 
 # ---------------------------------------------------------------------------
@@ -33,6 +33,11 @@ if "messages" not in st.session_state:
 
 if "session_id" not in st.session_state:
     st.session_state.session_id = None
+
+# experimental_rerun
+def refresh_page():
+    print("🔄 Refreshing page...")
+
 
 # ---------------------------------------------------------------------------
 # Sidebar
@@ -45,14 +50,19 @@ with st.sidebar:
         st.session_state.session_id = None
         st.rerun()
 
+    st.button("🔄 Refresh", use_container_width=True, on_click=refresh_page)
+
     st.divider()
     st.markdown("**Available Tools:**")
     st.markdown("- ⏰ `get_current_time`")
+    st.markdown("this front demostrates streamlit python framework")
     st.divider()
     st.markdown(
         "Built with **FastAPI** + **Streamlit**  \n"
         "AI by **Google Gemini**"
     )
+
+
 
 # ---------------------------------------------------------------------------
 # Display chat history
@@ -87,12 +97,15 @@ if user_input := st.chat_input("Type your message..."):
                 )
                 resp.raise_for_status()
                 data = resp.json()
+                print(data)
 
                 # Update session ID
                 st.session_state.session_id = data["session_id"]
 
                 # Display response
                 assistant_text = data["response"]
+
+                st.markdown("Below message received from Gemini API")
                 st.markdown(assistant_text)
 
                 # Show tool usage if applicable
