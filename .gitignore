@@ -40,3 +40,10 @@ __pycache__/
 .pytest_cache/
 .coverage
 htmlcov/
+# GCP
+google-cloud-key.json
+*.json
+.gcp/
+gcp-credentials/
+service-account-key.json
+gcp_project_student_access_skill.md

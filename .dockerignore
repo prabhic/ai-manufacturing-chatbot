@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Environment / secrets — NEVER bake into the image
+.env
+*.env
+
+# Dev/editor
+.git/
+.gitignore
+.vscode/
+*.md
+*.excalidraw
+*.canvas
+
+# Examples / docs
+examples/
+prompts/

@@ -5,13 +5,17 @@ A clean chat interface that talks to the FastAPI backend.
 Run with: streamlit run frontend/app.py
 """
 
+import os
+
 import streamlit as st
 import requests
 
 # ---------------------------------------------------------------------------
 # Configuration
 # ---------------------------------------------------------------------------
-BACKEND_URL = "http://localhost:8000"
+# In Cloud Run, set BACKEND_URL env var to the backend service URL.
+# Falls back to localhost for local development.
+BACKEND_URL = os.environ.get("BACKEND_URL", "http://localhost:8000")
 
 # ---------------------------------------------------------------------------
 # Page config
