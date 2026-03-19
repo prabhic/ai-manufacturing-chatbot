@@ -28,8 +28,8 @@ pairs = [
     ("king", "queen"),
     ("dog", "puppy"),
     ("happy", "sad"),
-    ("Python", "programming"),
-    ("车", "banana"),
+    ("Python", "HTML"),
+    ("yellow banana", "banana"),
 ]
 
 # Get embeddings for all unique words

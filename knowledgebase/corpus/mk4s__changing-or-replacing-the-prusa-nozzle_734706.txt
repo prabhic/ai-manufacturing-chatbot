@@ -1,0 +1,35 @@
+Title: Changing or replacing the Prusa Nozzle
+URL: https://help.prusa3d.com/article/changing-or-replacing-the-prusa-nozzle_734706?product=mk4s
+Product: mk4s
+---
+
+Replacing the Prusa Nozzle on your printer varies depending on the model of your printer. This article provides an overview of the different methods to replace the Prusa Nozzle, directing you to the appropriate guides for your specific printer model.
+
+### Do I have the Prusa Nozzle?
+
+Every MK4S, MK3.9S, MK4, MK3.9, XL, CORE One/+ and CORE One L that is shipped from our company comes with the Prusa Nozzle installed or included in the kit.
+
+### Methods for replacing the Prusa Nozzle
+
+There are two different ways to replace the nozzle for each model. We have designed theNozzle Replacement Toolthat makes the process easier and quicker,but it requires printing the tool first.
+CORE One L
+- How to replace the Prusa Nozzle (CORE One L)
+- How to replace the Prusa Nozzle (CORE One L) using the CORE One Nozzle Replacement Tool(instructions in the description on Printables.com)
+CORE One, CORE One+
+- How to replace the Prusa Nozzle (CORE One)
+- How to replace the Prusa Nozzle (CORE One) using the CORE One Nozzle Replacement Tool(instructions in the description on Printables.com)
+MK4S/MK3.9S
+- How to replace the Prusa Nozzle (MK4S/MK3.9S)
+- How to replace the Prusa Nozzle (CORE One) using the MK4S Nozzle Replacement Tool(instructions in the description on Printables.com)
+MK4/MK3.9
+- How to replace the Prusa Nozzle (MK4/MK3.9)
+- How to replace the Prusa Nozzle (MK4/MK3.9) using the MK4 Nozzle Replacement Tool(instructions in the description on Printables.com)
+XL Single-tool
+- How to replace the Prusa Nozzle (XL single-tool)
+- How to replace the Prusa Nozzle (XL single-tool) using the XL Nozzle Replacement Tool(instructions in the description on Printables.com)
+XL Multi-tool
+- How to replace the Prusa Nozzle (XL multi-tool)
+- How to replace the Prusa Nozzle (XL multi-tool) using the XL Nozzle Replacement Tool(instructions in the description on Printables.com)
+
+### 2 comments
+

@@ -1,0 +1,34 @@
+Title: Shipping information
+URL: https://help.prusa3d.com/article/shipping-information_2297?product=mk4s
+Product: mk4s
+---
+
+
+### Current lead time estimates for new orders
+
+The dates are only an estimation at the date of update, specified above, and rely on the actualproduction.We're doing our best but please be aware that it can shift for the lead time products. We will update here and on the product pages accordingly.
+The lead time estimate applies to standalone products; other products in the order may increase the lead time.
+If you've ordered a product in a bundle, the lead time of the order is set based on the product in the bundle with the longest lead time.
+Please note that the transit time is not included in our lead time estimate.
+
+#### Product
+
+
+#### Lead time
+
+Buddy3D Camera for Prusa CORE One(standalone or in a bundle)
+In stock
+CORE One+
+In stockBestseller
+CORE One+ kit
+In stock
+Prusa CORE One L
+4-5 weeksHigh Demand
+Prusa CORE One to CORE One+ upgrade
+1 week
+MK4S to Prusa CORE One+ Conversion kit
+In stock
+Original Prusa MINI+ (Enclosure Bundle)
+In stock
+Original Prusa MMU3 Enclosed (for CORE One) - Conversion Kit
+1 week

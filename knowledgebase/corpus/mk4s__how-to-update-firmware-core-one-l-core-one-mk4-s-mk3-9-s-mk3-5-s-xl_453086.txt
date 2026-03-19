@@ -1,0 +1,36 @@
+Title: How to update firmware
+URL: https://help.prusa3d.com/article/how-to-update-firmware-core-one-l-core-one-mk4-s-mk3-9-s-mk3-5-s-xl_453086?product=mk4s
+Product: mk4s
+---
+
+On thePrusa CORE One L, Prusa CORE One,Original Prusa MK4/S,MK3.9/S,MK3.5/S, andXL, the firmware is flashed using a USB flash drive. This is valid for all ways of firmware updating.
+
+### Offline USB Drive procedure
+
+- Download the latest firmware for your printer and extract it (zip file) on your computerCORE One LPrusa CORE OneOriginal Prusa MK4SOriginal Prusa MK4Original Prusa MK3.9SOriginal Prusa MK3.9Original Prusa MK3.5SOriginal Prusa MK3.5Original Prusa XL
+- CORE One L
+- Prusa CORE One
+- Original Prusa MK4S
+- Original Prusa MK4
+- Original Prusa MK3.9S
+- Original Prusa MK3.9
+- Original Prusa MK3.5S
+- Original Prusa MK3.5
+- Original Prusa XL
+- Make sure the USB flash drive doesn't contain any previous firmware (.bbf file)
+- Copy the new .bbf file to the root directory of a USB flash drive (Not within a folder).
+- Insert the USB flash drive and push the reset button.The bootloader will automatically compare the installed version with the one on the drive and, if it is newer, will automatically offer you to flash it.
+- Confirm the update by selecting the "FLASH" button and pressing the knob.
+If you need to downgrade the firmware or re-flash the same firmware, follow this guide:How to downgrade firmware.
+
+### OTA (Over-The-Air) firmware update
+
+If your printer is connected toPrusa Connect, an over-the-air firmware update is also possible.
+Prusa Connect checks the printer’s firmware version and offers you an option to remotely update it if a newer version is available. Click on the orange arrow icon to open a new window, with the option to transfer the new firmware file to the USB drive inserted in the printer.
+
+### Factory Reset
+
+If you do ahardFactory Reset, it is necessary to insert a USB drive with a firmware file. This firmware file is installed in the printer, so this can be used as a way to update the firmware.
+
+### 14 comments
+

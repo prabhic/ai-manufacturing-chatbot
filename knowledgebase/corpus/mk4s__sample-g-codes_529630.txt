@@ -1,0 +1,21 @@
+Title: Sample G-codes
+URL: https://help.prusa3d.com/article/sample-g-codes_529630
+Product: mk4s
+---
+
+Each Original Prusa printer is shipped with a bundle of sample G-codes. These G-codes are tested and tailored specifically for your printer model and can be used to see the printer's capabilities or troubleshoot.
+Find your printer in the table and download the zip archive. The model geometry (.stl/.3mf) and the presliced version (.gcode) are included.
+
+## Original Prusa FFF Series
+
+*The archive includes G-codes for both MK4 and MK3.9 printers. G-codes are sliced for Input Shaper and older non-Input Shaper firmware. To print the Input Shaper G-codes, please make sure your printer is runningfirmware 5.0.0 or newer.
+
+## Original Prusa SLA Series
+
+
+## Prusa Pro FFF Series
+
+
+### 4 comments
+
+Hi Beren, G-codes were resliced shortly after the new firmware was launched. It should be OK now.
